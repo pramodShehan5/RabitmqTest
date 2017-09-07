@@ -1,0 +1,69 @@
+[debug] :: building artificial module descriptors from com.pagero#rabbitmqtest$sources_2.12;0.1
+[debug] ::: dd: dependency: org.scala-lang#scala-reflect;2.12.3 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-reflect:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-xml_2.12:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: scala-library:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: ch.qos.logback#logback-classic;1.1.2 {test=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]} (artifacts: logback-classic:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, compile, runtime, optional, optional(default), master]} (artifacts: scala-compiler:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: jline#jline;2.14.4 {scala-tool=[compile, master(compile), compile(*), master]} (artifacts: jline:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: org.slf4j#slf4j-api;1.7.6 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: slf4j-api:src:jar:{classifier=sources})
+[debug] ::: dd: dependency: ch.qos.logback#logback-core;1.1.2 {test=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]} (artifacts: logback-core:src:jar:{classifier=sources})
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-reflect/2.12.3_temp-resolve-9e832b38d61bcef4b56847bbf2647c504907e6f5/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang.modules/scala-xml_2.12/1.0.6_temp-resolve-ee53598a9dbc529ae84822a0fa15c99e8f22a606/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.12.3_temp-resolve-c7e0a2ea7d719ecfc6903037792b703764b96e32/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/ch.qos.logback/logback-classic/1.1.2_temp-resolve-d5692ce950510474db175371183d165a5fc12eea/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.12.3_temp-resolve-851a435dfabff04690fabc1712590d69ffb4ded4/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/jline/jline/2.14.4_temp-resolve-7a3f448d56ef7c1b4c915863bfc54f53dfe61bf1/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.slf4j/slf4j-api/1.7.6_temp-resolve-88627e07d5ad85045b3085db817e8d894b222f04/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/ch.qos.logback/logback-core/1.1.2_temp-resolve-56b506481b3b9faa134d4814a85ba52782b7341a/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: ch.qos.logback:logback-classic, org.slf4j:slf4j-api, ch.qos.logback:logback-core
+[debug] :: no conflict test: ch.qos.logback:logback-classic
+[debug] :: no conflict test: org.slf4j:slf4j-api
+[debug] :: no conflict test: ch.qos.logback:logback-core
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: ch.qos.logback:logback-classic, org.slf4j:slf4j-api, ch.qos.logback:logback-core
+[debug] :: no conflict test-internal: ch.qos.logback:logback-classic
+[debug] :: no conflict test-internal: org.slf4j:slf4j-api
+[debug] :: no conflict test-internal: ch.qos.logback:logback-core
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-reflect, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-library, org.scala-lang:scala-compiler, jline:jline
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12
+[debug] :: no conflict scala-tool: org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: jline:jline
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator

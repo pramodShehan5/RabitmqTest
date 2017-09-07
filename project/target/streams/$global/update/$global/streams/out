@@ -1,0 +1,477 @@
+[info] Updating {file:/home/pramod/Documents/Scala%20Tutorial/RabbitmqTest/project/}rabbitmqtest-build...
+[debug] :: building artificial module descriptors from com.pagero#rabbitmqtest-build;0.1-SNAPSHOT
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) (artifacts: )
+[debug] ::: dd: dependency: org.scala-sbt#sbt;0.13.16 {provided=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]} (artifacts: global-plugins:pom:pom:{},global-plugins:jar:jar:{},global-plugins:src:jar:{classifier=sources},global-plugins:doc:jar:{classifier=javadoc})
+[debug] :: call customResolve recursively: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
+[debug] :: building artificial module descriptors from org.scala-sbt#global-plugins;0.0
+[debug] ::: dd: dependency: org.scala-lang#scala-compiler;2.10.6 {scala-tool=[default, optional(default)]} (artifacts: )
+[debug] ::: dd: MergedDescriptors(dependency: org.scala-lang#scala-library;2.10.6 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}) (artifacts: )
+[debug] ::: dd: dependency: org.scala-sbt#sbt;0.13.16 {provided=[default(compile)]} (artifacts: )
+[debug] ::: dd: dependency: com.pagero#sbt-global;0.2 {compile=[default(compile)]} (artifacts: )
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.10.6_temp-resolve-27b39100f2c487ed346fabc33b452b5c6872fef6/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.10.6_temp-resolve-6f5dd7e0f499411eeef4ae9865477b28405c6251/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-sbt/sbt/0.13.16_temp-resolve-a3343ebadd16ef1cb78769cf97979a89cdd313a8/graphs/graph.json
+[debug] parsing /home/pramod/.sbt/0.13/dependency/module/static/com.pagero/sbt-global/0.2_temp-resolve-5b868166a0de80f5e72bf84467a8675806b018fe/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict compile: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict runtime: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict test: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: org.scala-sbt:sbt, org.scala-sbt:compiler-interface, org.scala-sbt:main, org.scala-sbt:logic, org.scala-sbt:main-settings, org.scala-sbt:actions, org.scala-sbt:command, org.scala-sbt:apply-macro, org.scala-sbt:testing, org.scala-sbt:tracking, org.scala-sbt:task-system, org.scala-sbt:run, org.scala-sbt:compiler-ivy-integration, org.scala-sbt:compiler-integration, org.scala-sbt:template-resolver, org.scala-sbt:test-agent, org.scala-sbt:cache, org.scala-sbt:tasks, org.scala-sbt:ivy, org.scala-sbt:persist, org.scala-sbt:compile, org.scala-sbt:completion, org.scala-sbt:test-interface, org.scala-sbt:serialization_2.10, com.jcraft:jsch, org.scala-sbt.ivy:ivy, org.scala-sbt:cross, org.scala-tools.sbinary:sbinary_2.10, org.scala-sbt:incremental-compiler, org.scala-sbt:collections, org.spire-math:json4s-support_2.10, org.json4s:json4s-core_2.10, org.scala-lang.modules:scala-pickling_2.10, org.scala-sbt:relation, org.scala-sbt:api, org.scala-sbt:classpath, org.spire-math:jawn-parser_2.10, com.thoughtworks.paranamer:paranamer, org.json4s:json4s-ast_2.10, org.scalamacros:quasiquotes_2.10, org.scala-sbt:classfile, org.scala-sbt:launcher-interface, org.scala-lang:scala-compiler, org.scala-sbt:logging, org.scala-sbt:io, org.scala-lang:scala-reflect, org.scala-sbt:process, jline:jline, org.scala-sbt:control, org.scala-sbt:interface, org.scala-lang:scala-library
+[debug] :: no conflict provided: org.scala-sbt:sbt
+[debug] :: no conflict provided: org.scala-sbt:compiler-interface
+[debug] :: no conflict provided: org.scala-sbt:main
+[debug] :: no conflict provided: org.scala-sbt:logic
+[debug] :: no conflict provided: org.scala-sbt:main-settings
+[debug] :: no conflict provided: org.scala-sbt:actions
+[debug] :: no conflict provided: org.scala-sbt:command
+[debug] :: no conflict provided: org.scala-sbt:apply-macro
+[debug] :: no conflict provided: org.scala-sbt:testing
+[debug] :: no conflict provided: org.scala-sbt:tracking
+[debug] :: no conflict provided: org.scala-sbt:task-system
+[debug] :: no conflict provided: org.scala-sbt:run
+[debug] :: no conflict provided: org.scala-sbt:compiler-ivy-integration
+[debug] :: no conflict provided: org.scala-sbt:compiler-integration
+[debug] :: no conflict provided: org.scala-sbt:template-resolver
+[debug] :: no conflict provided: org.scala-sbt:test-agent
+[debug] :: no conflict provided: org.scala-sbt:cache
+[debug] :: no conflict provided: org.scala-sbt:tasks
+[debug] :: no conflict provided: org.scala-sbt:ivy
+[debug] :: no conflict provided: org.scala-sbt:persist
+[debug] :: no conflict provided: org.scala-sbt:compile
+[debug] :: no conflict provided: org.scala-sbt:completion
+[debug] :: no conflict provided: org.scala-sbt:test-interface
+[debug] :: no conflict provided: org.scala-sbt:serialization_2.10
+[debug] :: no conflict provided: com.jcraft:jsch
+[debug] :: no conflict provided: org.scala-sbt.ivy:ivy
+[debug] :: no conflict provided: org.scala-sbt:cross
+[debug] :: no conflict provided: org.scala-tools.sbinary:sbinary_2.10
+[debug] :: no conflict provided: org.scala-sbt:incremental-compiler
+[debug] :: no conflict provided: org.scala-sbt:collections
+[debug] :: no conflict provided: org.spire-math:json4s-support_2.10
+[debug] :: no conflict provided: org.json4s:json4s-core_2.10
+[debug] :: no conflict provided: org.scala-lang.modules:scala-pickling_2.10
+[debug] :: no conflict provided: org.scala-sbt:relation
+[debug] :: no conflict provided: org.scala-sbt:api
+[debug] :: no conflict provided: org.scala-sbt:classpath
+[debug] :: no conflict provided: org.spire-math:jawn-parser_2.10
+[debug] :: no conflict provided: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict provided: org.json4s:json4s-ast_2.10
+[debug] :: no conflict provided: org.scalamacros:quasiquotes_2.10
+[debug] :: no conflict provided: org.scala-sbt:classfile
+[debug] :: no conflict provided: org.scala-sbt:launcher-interface
+[debug] :: no conflict provided: org.scala-lang:scala-compiler
+[debug] :: no conflict provided: org.scala-sbt:logging
+[debug] :: no conflict provided: org.scala-sbt:io
+[debug] :: no conflict provided: org.scala-lang:scala-reflect
+[debug] :: no conflict provided: org.scala-sbt:process
+[debug] :: no conflict provided: jline:jline
+[debug] :: no conflict provided: org.scala-sbt:control
+[debug] :: no conflict provided: org.scala-sbt:interface
+[debug] :: merging module reports for provided: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: org.scala-sbt:sbt, com.pagero:sbt-global, org.scala-sbt:compiler-interface, org.scala-sbt:main, org.scala-sbt:logic, org.scala-sbt:main-settings, org.scala-sbt:actions, org.scala-sbt:command, org.scala-sbt:apply-macro, org.scala-sbt:testing, org.scala-sbt:tracking, org.scala-sbt:task-system, org.scala-sbt:run, org.scala-sbt:compiler-ivy-integration, org.scala-sbt:compiler-integration, org.scala-sbt:template-resolver, org.scala-sbt:test-agent, org.scala-sbt:cache, org.scala-sbt:tasks, org.scala-sbt:ivy, org.scala-sbt:persist, org.scala-sbt:compile, org.scala-sbt:completion, org.scala-sbt:test-interface, org.scala-sbt:serialization_2.10, com.jcraft:jsch, org.scala-sbt.ivy:ivy, org.scala-sbt:cross, org.scala-tools.sbinary:sbinary_2.10, org.scala-sbt:incremental-compiler, org.scala-sbt:collections, org.spire-math:json4s-support_2.10, org.json4s:json4s-core_2.10, org.scala-lang.modules:scala-pickling_2.10, org.scala-sbt:relation, org.scala-sbt:api, org.scala-sbt:classpath, org.spire-math:jawn-parser_2.10, com.thoughtworks.paranamer:paranamer, org.json4s:json4s-ast_2.10, org.scalamacros:quasiquotes_2.10, org.scala-sbt:classfile, org.scala-sbt:launcher-interface, org.scala-lang:scala-compiler, org.scala-sbt:logging, org.scala-sbt:io, org.scala-lang:scala-reflect, org.scala-sbt:process, jline:jline, org.scala-sbt:control, org.scala-sbt:interface, org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: org.scala-sbt:sbt
+[debug] :: no conflict compile-internal: com.pagero:sbt-global
+[debug] :: no conflict compile-internal: org.scala-sbt:compiler-interface
+[debug] :: no conflict compile-internal: org.scala-sbt:main
+[debug] :: no conflict compile-internal: org.scala-sbt:logic
+[debug] :: no conflict compile-internal: org.scala-sbt:main-settings
+[debug] :: no conflict compile-internal: org.scala-sbt:actions
+[debug] :: no conflict compile-internal: org.scala-sbt:command
+[debug] :: no conflict compile-internal: org.scala-sbt:apply-macro
+[debug] :: no conflict compile-internal: org.scala-sbt:testing
+[debug] :: no conflict compile-internal: org.scala-sbt:tracking
+[debug] :: no conflict compile-internal: org.scala-sbt:task-system
+[debug] :: no conflict compile-internal: org.scala-sbt:run
+[debug] :: no conflict compile-internal: org.scala-sbt:compiler-ivy-integration
+[debug] :: no conflict compile-internal: org.scala-sbt:compiler-integration
+[debug] :: no conflict compile-internal: org.scala-sbt:template-resolver
+[debug] :: no conflict compile-internal: org.scala-sbt:test-agent
+[debug] :: no conflict compile-internal: org.scala-sbt:cache
+[debug] :: no conflict compile-internal: org.scala-sbt:tasks
+[debug] :: no conflict compile-internal: org.scala-sbt:ivy
+[debug] :: no conflict compile-internal: org.scala-sbt:persist
+[debug] :: no conflict compile-internal: org.scala-sbt:compile
+[debug] :: no conflict compile-internal: org.scala-sbt:completion
+[debug] :: no conflict compile-internal: org.scala-sbt:test-interface
+[debug] :: no conflict compile-internal: org.scala-sbt:serialization_2.10
+[debug] :: no conflict compile-internal: com.jcraft:jsch
+[debug] :: no conflict compile-internal: org.scala-sbt.ivy:ivy
+[debug] :: no conflict compile-internal: org.scala-sbt:cross
+[debug] :: no conflict compile-internal: org.scala-tools.sbinary:sbinary_2.10
+[debug] :: no conflict compile-internal: org.scala-sbt:incremental-compiler
+[debug] :: no conflict compile-internal: org.scala-sbt:collections
+[debug] :: no conflict compile-internal: org.spire-math:json4s-support_2.10
+[debug] :: no conflict compile-internal: org.json4s:json4s-core_2.10
+[debug] :: no conflict compile-internal: org.scala-lang.modules:scala-pickling_2.10
+[debug] :: no conflict compile-internal: org.scala-sbt:relation
+[debug] :: no conflict compile-internal: org.scala-sbt:api
+[debug] :: no conflict compile-internal: org.scala-sbt:classpath
+[debug] :: no conflict compile-internal: org.spire-math:jawn-parser_2.10
+[debug] :: no conflict compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile-internal: org.json4s:json4s-ast_2.10
+[debug] :: no conflict compile-internal: org.scalamacros:quasiquotes_2.10
+[debug] :: no conflict compile-internal: org.scala-sbt:classfile
+[debug] :: no conflict compile-internal: org.scala-sbt:launcher-interface
+[debug] :: no conflict compile-internal: org.scala-lang:scala-compiler
+[debug] :: no conflict compile-internal: org.scala-sbt:logging
+[debug] :: no conflict compile-internal: org.scala-sbt:io
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict compile-internal: org.scala-sbt:process
+[debug] :: no conflict compile-internal: jline:jline
+[debug] :: no conflict compile-internal: org.scala-sbt:control
+[debug] :: no conflict compile-internal: org.scala-sbt:interface
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict runtime-internal: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: org.scala-sbt:sbt, com.pagero:sbt-global, org.scala-sbt:compiler-interface, org.scala-sbt:main, org.scala-sbt:logic, org.scala-sbt:main-settings, org.scala-sbt:actions, org.scala-sbt:command, org.scala-sbt:apply-macro, org.scala-sbt:testing, org.scala-sbt:tracking, org.scala-sbt:task-system, org.scala-sbt:run, org.scala-sbt:compiler-ivy-integration, org.scala-sbt:compiler-integration, org.scala-sbt:template-resolver, org.scala-sbt:test-agent, org.scala-sbt:cache, org.scala-sbt:tasks, org.scala-sbt:ivy, org.scala-sbt:persist, org.scala-sbt:compile, org.scala-sbt:completion, org.scala-sbt:test-interface, org.scala-sbt:serialization_2.10, com.jcraft:jsch, org.scala-sbt.ivy:ivy, org.scala-sbt:cross, org.scala-tools.sbinary:sbinary_2.10, org.scala-sbt:incremental-compiler, org.scala-sbt:collections, org.spire-math:json4s-support_2.10, org.json4s:json4s-core_2.10, org.scala-lang.modules:scala-pickling_2.10, org.scala-sbt:relation, org.scala-sbt:api, org.scala-sbt:classpath, org.spire-math:jawn-parser_2.10, com.thoughtworks.paranamer:paranamer, org.json4s:json4s-ast_2.10, org.scalamacros:quasiquotes_2.10, org.scala-sbt:classfile, org.scala-sbt:launcher-interface, org.scala-lang:scala-compiler, org.scala-sbt:logging, org.scala-sbt:io, org.scala-lang:scala-reflect, org.scala-sbt:process, jline:jline, org.scala-sbt:control, org.scala-sbt:interface, org.scala-lang:scala-library
+[debug] :: no conflict test-internal: org.scala-sbt:sbt
+[debug] :: no conflict test-internal: com.pagero:sbt-global
+[debug] :: no conflict test-internal: org.scala-sbt:compiler-interface
+[debug] :: no conflict test-internal: org.scala-sbt:main
+[debug] :: no conflict test-internal: org.scala-sbt:logic
+[debug] :: no conflict test-internal: org.scala-sbt:main-settings
+[debug] :: no conflict test-internal: org.scala-sbt:actions
+[debug] :: no conflict test-internal: org.scala-sbt:command
+[debug] :: no conflict test-internal: org.scala-sbt:apply-macro
+[debug] :: no conflict test-internal: org.scala-sbt:testing
+[debug] :: no conflict test-internal: org.scala-sbt:tracking
+[debug] :: no conflict test-internal: org.scala-sbt:task-system
+[debug] :: no conflict test-internal: org.scala-sbt:run
+[debug] :: no conflict test-internal: org.scala-sbt:compiler-ivy-integration
+[debug] :: no conflict test-internal: org.scala-sbt:compiler-integration
+[debug] :: no conflict test-internal: org.scala-sbt:template-resolver
+[debug] :: no conflict test-internal: org.scala-sbt:test-agent
+[debug] :: no conflict test-internal: org.scala-sbt:cache
+[debug] :: no conflict test-internal: org.scala-sbt:tasks
+[debug] :: no conflict test-internal: org.scala-sbt:ivy
+[debug] :: no conflict test-internal: org.scala-sbt:persist
+[debug] :: no conflict test-internal: org.scala-sbt:compile
+[debug] :: no conflict test-internal: org.scala-sbt:completion
+[debug] :: no conflict test-internal: org.scala-sbt:test-interface
+[debug] :: no conflict test-internal: org.scala-sbt:serialization_2.10
+[debug] :: no conflict test-internal: com.jcraft:jsch
+[debug] :: no conflict test-internal: org.scala-sbt.ivy:ivy
+[debug] :: no conflict test-internal: org.scala-sbt:cross
+[debug] :: no conflict test-internal: org.scala-tools.sbinary:sbinary_2.10
+[debug] :: no conflict test-internal: org.scala-sbt:incremental-compiler
+[debug] :: no conflict test-internal: org.scala-sbt:collections
+[debug] :: no conflict test-internal: org.spire-math:json4s-support_2.10
+[debug] :: no conflict test-internal: org.json4s:json4s-core_2.10
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-pickling_2.10
+[debug] :: no conflict test-internal: org.scala-sbt:relation
+[debug] :: no conflict test-internal: org.scala-sbt:api
+[debug] :: no conflict test-internal: org.scala-sbt:classpath
+[debug] :: no conflict test-internal: org.spire-math:jawn-parser_2.10
+[debug] :: no conflict test-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test-internal: org.json4s:json4s-ast_2.10
+[debug] :: no conflict test-internal: org.scalamacros:quasiquotes_2.10
+[debug] :: no conflict test-internal: org.scala-sbt:classfile
+[debug] :: no conflict test-internal: org.scala-sbt:launcher-interface
+[debug] :: no conflict test-internal: org.scala-lang:scala-compiler
+[debug] :: no conflict test-internal: org.scala-sbt:logging
+[debug] :: no conflict test-internal: org.scala-sbt:io
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict test-internal: org.scala-sbt:process
+[debug] :: no conflict test-internal: jline:jline
+[debug] :: no conflict test-internal: org.scala-sbt:control
+[debug] :: no conflict test-internal: org.scala-sbt:interface
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, org.scala-lang:jline, org.scala-lang:scala-reflect, org.fusesource.jansi:jansi, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: org.scala-lang:jline
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: no conflict scala-tool: org.fusesource.jansi:jansi
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[debug] ::: remapped configs Map(plugin -> Vector(), pom -> Vector(), test -> Vector(compile), provided -> Vector(), compile-internal -> Vector(compile), docs -> Vector(), optional -> Vector(), compile -> Vector(compile), test-internal -> Vector(compile), scala-tool -> Vector(), sources -> Vector(), runtime -> Vector(compile), runtime-internal -> Vector(compile))
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict compile: com.pagero:sbt-global
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict runtime: com.pagero:sbt-global
+[debug] :: test: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict test: com.pagero:sbt-global
+[debug] :: provided: loop: List()
+[debug] :: sort result: 
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict compile-internal: com.pagero:sbt-global
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict runtime-internal: com.pagero:sbt-global
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict test-internal: com.pagero:sbt-global
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: 
+[debug] saving minigraph to /home/pramod/.sbt/0.13/dependency/module/dynamic/2017-09-07/2d3e2427/org.scala-sbt/global-plugins/0.0_temp-resolve-6f60918c751563c581ad3e9d4c8a026867f11a5d/graphs/graph.json
+[debug] :: merging update reports
+[debug] ::: -----------
+[debug] :: compile: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict compile: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: runtime: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict runtime: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: test: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict test: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: provided: loop: List()
+[debug] :: sort result: org.scala-sbt:sbt, org.scala-sbt:compiler-interface, org.scala-sbt:main, org.scala-sbt:logic, org.scala-sbt:main-settings, org.scala-sbt:actions, org.scala-sbt:command, org.scala-sbt:apply-macro, org.scala-sbt:testing, org.scala-sbt:tracking, org.scala-sbt:task-system, org.scala-sbt:run, org.scala-sbt:compiler-ivy-integration, org.scala-sbt:compiler-integration, org.scala-sbt:template-resolver, org.scala-sbt:test-agent, org.scala-sbt:cache, org.scala-sbt:tasks, org.scala-sbt:ivy, org.scala-sbt:persist, org.scala-sbt:compile, org.scala-sbt:completion, org.scala-sbt:test-interface, org.scala-sbt:serialization_2.10, com.jcraft:jsch, org.scala-sbt.ivy:ivy, org.scala-sbt:cross, org.scala-tools.sbinary:sbinary_2.10, org.scala-sbt:incremental-compiler, org.scala-sbt:collections, org.spire-math:json4s-support_2.10, org.json4s:json4s-core_2.10, org.scala-lang.modules:scala-pickling_2.10, org.scala-sbt:relation, org.scala-sbt:api, org.scala-sbt:classpath, org.spire-math:jawn-parser_2.10, com.thoughtworks.paranamer:paranamer, org.json4s:json4s-ast_2.10, org.scalamacros:quasiquotes_2.10, org.scala-sbt:classfile, org.scala-sbt:launcher-interface, org.scala-lang:scala-compiler, org.scala-sbt:logging, org.scala-sbt:io, org.scala-lang:scala-reflect, org.scala-sbt:process, jline:jline, org.scala-sbt:control, org.scala-sbt:interface, org.scala-lang:scala-library
+[debug] :: no conflict provided: org.scala-sbt:sbt
+[debug] :: no conflict provided: org.scala-sbt:compiler-interface
+[debug] :: no conflict provided: org.scala-sbt:main
+[debug] :: no conflict provided: org.scala-sbt:logic
+[debug] :: no conflict provided: org.scala-sbt:main-settings
+[debug] :: no conflict provided: org.scala-sbt:actions
+[debug] :: no conflict provided: org.scala-sbt:command
+[debug] :: no conflict provided: org.scala-sbt:apply-macro
+[debug] :: no conflict provided: org.scala-sbt:testing
+[debug] :: no conflict provided: org.scala-sbt:tracking
+[debug] :: no conflict provided: org.scala-sbt:task-system
+[debug] :: no conflict provided: org.scala-sbt:run
+[debug] :: no conflict provided: org.scala-sbt:compiler-ivy-integration
+[debug] :: no conflict provided: org.scala-sbt:compiler-integration
+[debug] :: no conflict provided: org.scala-sbt:template-resolver
+[debug] :: no conflict provided: org.scala-sbt:test-agent
+[debug] :: no conflict provided: org.scala-sbt:cache
+[debug] :: no conflict provided: org.scala-sbt:tasks
+[debug] :: no conflict provided: org.scala-sbt:ivy
+[debug] :: no conflict provided: org.scala-sbt:persist
+[debug] :: no conflict provided: org.scala-sbt:compile
+[debug] :: no conflict provided: org.scala-sbt:completion
+[debug] :: no conflict provided: org.scala-sbt:test-interface
+[debug] :: no conflict provided: org.scala-sbt:serialization_2.10
+[debug] :: no conflict provided: com.jcraft:jsch
+[debug] :: no conflict provided: org.scala-sbt.ivy:ivy
+[debug] :: no conflict provided: org.scala-sbt:cross
+[debug] :: no conflict provided: org.scala-tools.sbinary:sbinary_2.10
+[debug] :: no conflict provided: org.scala-sbt:incremental-compiler
+[debug] :: no conflict provided: org.scala-sbt:collections
+[debug] :: no conflict provided: org.spire-math:json4s-support_2.10
+[debug] :: no conflict provided: org.json4s:json4s-core_2.10
+[debug] :: no conflict provided: org.scala-lang.modules:scala-pickling_2.10
+[debug] :: no conflict provided: org.scala-sbt:relation
+[debug] :: no conflict provided: org.scala-sbt:api
+[debug] :: no conflict provided: org.scala-sbt:classpath
+[debug] :: no conflict provided: org.spire-math:jawn-parser_2.10
+[debug] :: no conflict provided: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict provided: org.json4s:json4s-ast_2.10
+[debug] :: no conflict provided: org.scalamacros:quasiquotes_2.10
+[debug] :: no conflict provided: org.scala-sbt:classfile
+[debug] :: no conflict provided: org.scala-sbt:launcher-interface
+[debug] :: no conflict provided: org.scala-lang:scala-compiler
+[debug] :: no conflict provided: org.scala-sbt:logging
+[debug] :: no conflict provided: org.scala-sbt:io
+[debug] :: no conflict provided: org.scala-lang:scala-reflect
+[debug] :: no conflict provided: org.scala-sbt:process
+[debug] :: no conflict provided: jline:jline
+[debug] :: no conflict provided: org.scala-sbt:control
+[debug] :: no conflict provided: org.scala-sbt:interface
+[debug] :: merging module reports for provided: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: optional: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: compile-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global, org.scala-sbt:sbt, org.scala-sbt:compiler-interface, org.scala-sbt:main, org.scala-sbt:logic, org.scala-sbt:main-settings, org.scala-sbt:actions, org.scala-sbt:command, org.scala-sbt:apply-macro, org.scala-sbt:testing, org.scala-sbt:tracking, org.scala-sbt:task-system, org.scala-sbt:run, org.scala-sbt:compiler-ivy-integration, org.scala-sbt:compiler-integration, org.scala-sbt:template-resolver, org.scala-sbt:test-agent, org.scala-sbt:cache, org.scala-sbt:tasks, org.scala-sbt:ivy, org.scala-sbt:persist, org.scala-sbt:compile, org.scala-sbt:completion, org.scala-sbt:test-interface, org.scala-sbt:serialization_2.10, com.jcraft:jsch, org.scala-sbt.ivy:ivy, org.scala-sbt:cross, org.scala-tools.sbinary:sbinary_2.10, org.scala-sbt:incremental-compiler, org.scala-sbt:collections, org.spire-math:json4s-support_2.10, org.json4s:json4s-core_2.10, org.scala-lang.modules:scala-pickling_2.10, org.scala-sbt:relation, org.scala-sbt:api, org.scala-sbt:classpath, org.spire-math:jawn-parser_2.10, com.thoughtworks.paranamer:paranamer, org.json4s:json4s-ast_2.10, org.scalamacros:quasiquotes_2.10, org.scala-sbt:classfile, org.scala-sbt:launcher-interface, org.scala-lang:scala-compiler, org.scala-sbt:logging, org.scala-sbt:io, org.scala-lang:scala-reflect, org.scala-sbt:process, jline:jline, org.scala-sbt:control, org.scala-sbt:interface, org.scala-lang:scala-library
+[debug] :: no conflict compile-internal: com.pagero:sbt-global
+[debug] :: no conflict compile-internal: org.scala-sbt:sbt
+[debug] :: no conflict compile-internal: org.scala-sbt:compiler-interface
+[debug] :: no conflict compile-internal: org.scala-sbt:main
+[debug] :: no conflict compile-internal: org.scala-sbt:logic
+[debug] :: no conflict compile-internal: org.scala-sbt:main-settings
+[debug] :: no conflict compile-internal: org.scala-sbt:actions
+[debug] :: no conflict compile-internal: org.scala-sbt:command
+[debug] :: no conflict compile-internal: org.scala-sbt:apply-macro
+[debug] :: no conflict compile-internal: org.scala-sbt:testing
+[debug] :: no conflict compile-internal: org.scala-sbt:tracking
+[debug] :: no conflict compile-internal: org.scala-sbt:task-system
+[debug] :: no conflict compile-internal: org.scala-sbt:run
+[debug] :: no conflict compile-internal: org.scala-sbt:compiler-ivy-integration
+[debug] :: no conflict compile-internal: org.scala-sbt:compiler-integration
+[debug] :: no conflict compile-internal: org.scala-sbt:template-resolver
+[debug] :: no conflict compile-internal: org.scala-sbt:test-agent
+[debug] :: no conflict compile-internal: org.scala-sbt:cache
+[debug] :: no conflict compile-internal: org.scala-sbt:tasks
+[debug] :: no conflict compile-internal: org.scala-sbt:ivy
+[debug] :: no conflict compile-internal: org.scala-sbt:persist
+[debug] :: no conflict compile-internal: org.scala-sbt:compile
+[debug] :: no conflict compile-internal: org.scala-sbt:completion
+[debug] :: no conflict compile-internal: org.scala-sbt:test-interface
+[debug] :: no conflict compile-internal: org.scala-sbt:serialization_2.10
+[debug] :: no conflict compile-internal: com.jcraft:jsch
+[debug] :: no conflict compile-internal: org.scala-sbt.ivy:ivy
+[debug] :: no conflict compile-internal: org.scala-sbt:cross
+[debug] :: no conflict compile-internal: org.scala-tools.sbinary:sbinary_2.10
+[debug] :: no conflict compile-internal: org.scala-sbt:incremental-compiler
+[debug] :: no conflict compile-internal: org.scala-sbt:collections
+[debug] :: no conflict compile-internal: org.spire-math:json4s-support_2.10
+[debug] :: no conflict compile-internal: org.json4s:json4s-core_2.10
+[debug] :: no conflict compile-internal: org.scala-lang.modules:scala-pickling_2.10
+[debug] :: no conflict compile-internal: org.scala-sbt:relation
+[debug] :: no conflict compile-internal: org.scala-sbt:api
+[debug] :: no conflict compile-internal: org.scala-sbt:classpath
+[debug] :: no conflict compile-internal: org.spire-math:jawn-parser_2.10
+[debug] :: no conflict compile-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict compile-internal: org.json4s:json4s-ast_2.10
+[debug] :: no conflict compile-internal: org.scalamacros:quasiquotes_2.10
+[debug] :: no conflict compile-internal: org.scala-sbt:classfile
+[debug] :: no conflict compile-internal: org.scala-sbt:launcher-interface
+[debug] :: no conflict compile-internal: org.scala-lang:scala-compiler
+[debug] :: no conflict compile-internal: org.scala-sbt:logging
+[debug] :: no conflict compile-internal: org.scala-sbt:io
+[debug] :: no conflict compile-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict compile-internal: org.scala-sbt:process
+[debug] :: no conflict compile-internal: jline:jline
+[debug] :: no conflict compile-internal: org.scala-sbt:control
+[debug] :: no conflict compile-internal: org.scala-sbt:interface
+[debug] :: merging module reports for compile-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: runtime-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global
+[debug] :: no conflict runtime-internal: com.pagero:sbt-global
+[debug] ::: -----------
+[debug] :: test-internal: loop: List()
+[debug] :: sort result: com.pagero:sbt-global, org.scala-sbt:sbt, org.scala-sbt:compiler-interface, org.scala-sbt:main, org.scala-sbt:logic, org.scala-sbt:main-settings, org.scala-sbt:actions, org.scala-sbt:command, org.scala-sbt:apply-macro, org.scala-sbt:testing, org.scala-sbt:tracking, org.scala-sbt:task-system, org.scala-sbt:run, org.scala-sbt:compiler-ivy-integration, org.scala-sbt:compiler-integration, org.scala-sbt:template-resolver, org.scala-sbt:test-agent, org.scala-sbt:cache, org.scala-sbt:tasks, org.scala-sbt:ivy, org.scala-sbt:persist, org.scala-sbt:compile, org.scala-sbt:completion, org.scala-sbt:test-interface, org.scala-sbt:serialization_2.10, com.jcraft:jsch, org.scala-sbt.ivy:ivy, org.scala-sbt:cross, org.scala-tools.sbinary:sbinary_2.10, org.scala-sbt:incremental-compiler, org.scala-sbt:collections, org.spire-math:json4s-support_2.10, org.json4s:json4s-core_2.10, org.scala-lang.modules:scala-pickling_2.10, org.scala-sbt:relation, org.scala-sbt:api, org.scala-sbt:classpath, org.spire-math:jawn-parser_2.10, com.thoughtworks.paranamer:paranamer, org.json4s:json4s-ast_2.10, org.scalamacros:quasiquotes_2.10, org.scala-sbt:classfile, org.scala-sbt:launcher-interface, org.scala-lang:scala-compiler, org.scala-sbt:logging, org.scala-sbt:io, org.scala-lang:scala-reflect, org.scala-sbt:process, jline:jline, org.scala-sbt:control, org.scala-sbt:interface, org.scala-lang:scala-library
+[debug] :: no conflict test-internal: com.pagero:sbt-global
+[debug] :: no conflict test-internal: org.scala-sbt:sbt
+[debug] :: no conflict test-internal: org.scala-sbt:compiler-interface
+[debug] :: no conflict test-internal: org.scala-sbt:main
+[debug] :: no conflict test-internal: org.scala-sbt:logic
+[debug] :: no conflict test-internal: org.scala-sbt:main-settings
+[debug] :: no conflict test-internal: org.scala-sbt:actions
+[debug] :: no conflict test-internal: org.scala-sbt:command
+[debug] :: no conflict test-internal: org.scala-sbt:apply-macro
+[debug] :: no conflict test-internal: org.scala-sbt:testing
+[debug] :: no conflict test-internal: org.scala-sbt:tracking
+[debug] :: no conflict test-internal: org.scala-sbt:task-system
+[debug] :: no conflict test-internal: org.scala-sbt:run
+[debug] :: no conflict test-internal: org.scala-sbt:compiler-ivy-integration
+[debug] :: no conflict test-internal: org.scala-sbt:compiler-integration
+[debug] :: no conflict test-internal: org.scala-sbt:template-resolver
+[debug] :: no conflict test-internal: org.scala-sbt:test-agent
+[debug] :: no conflict test-internal: org.scala-sbt:cache
+[debug] :: no conflict test-internal: org.scala-sbt:tasks
+[debug] :: no conflict test-internal: org.scala-sbt:ivy
+[debug] :: no conflict test-internal: org.scala-sbt:persist
+[debug] :: no conflict test-internal: org.scala-sbt:compile
+[debug] :: no conflict test-internal: org.scala-sbt:completion
+[debug] :: no conflict test-internal: org.scala-sbt:test-interface
+[debug] :: no conflict test-internal: org.scala-sbt:serialization_2.10
+[debug] :: no conflict test-internal: com.jcraft:jsch
+[debug] :: no conflict test-internal: org.scala-sbt.ivy:ivy
+[debug] :: no conflict test-internal: org.scala-sbt:cross
+[debug] :: no conflict test-internal: org.scala-tools.sbinary:sbinary_2.10
+[debug] :: no conflict test-internal: org.scala-sbt:incremental-compiler
+[debug] :: no conflict test-internal: org.scala-sbt:collections
+[debug] :: no conflict test-internal: org.spire-math:json4s-support_2.10
+[debug] :: no conflict test-internal: org.json4s:json4s-core_2.10
+[debug] :: no conflict test-internal: org.scala-lang.modules:scala-pickling_2.10
+[debug] :: no conflict test-internal: org.scala-sbt:relation
+[debug] :: no conflict test-internal: org.scala-sbt:api
+[debug] :: no conflict test-internal: org.scala-sbt:classpath
+[debug] :: no conflict test-internal: org.spire-math:jawn-parser_2.10
+[debug] :: no conflict test-internal: com.thoughtworks.paranamer:paranamer
+[debug] :: no conflict test-internal: org.json4s:json4s-ast_2.10
+[debug] :: no conflict test-internal: org.scalamacros:quasiquotes_2.10
+[debug] :: no conflict test-internal: org.scala-sbt:classfile
+[debug] :: no conflict test-internal: org.scala-sbt:launcher-interface
+[debug] :: no conflict test-internal: org.scala-lang:scala-compiler
+[debug] :: no conflict test-internal: org.scala-sbt:logging
+[debug] :: no conflict test-internal: org.scala-sbt:io
+[debug] :: no conflict test-internal: org.scala-lang:scala-reflect
+[debug] :: no conflict test-internal: org.scala-sbt:process
+[debug] :: no conflict test-internal: jline:jline
+[debug] :: no conflict test-internal: org.scala-sbt:control
+[debug] :: no conflict test-internal: org.scala-sbt:interface
+[debug] :: merging module reports for test-internal: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ::: -----------
+[debug] :: plugin: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: sources: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: docs: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: pom: loop: List()
+[debug] :: sort result: 
+[debug] ::: -----------
+[debug] :: scala-tool: loop: List()
+[debug] :: sort result: org.scala-lang:scala-compiler, org.scala-lang:jline, org.scala-lang:scala-reflect, org.fusesource.jansi:jansi, org.scala-lang:scala-library
+[debug] :: no conflict scala-tool: org.scala-lang:scala-compiler
+[debug] :: no conflict scala-tool: org.scala-lang:jline
+[debug] :: no conflict scala-tool: org.scala-lang:scala-reflect
+[debug] :: no conflict scala-tool: org.fusesource.jansi:jansi
+[debug] :: merging module reports for scala-tool: org.scala-lang:scala-library
+[debug] ::: adds org.scala-lang:scala-library:2.10.6 ()
+[debug] ::: evicted 
+[debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
+[info] Done updating.

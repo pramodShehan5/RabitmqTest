@@ -1,0 +1,63 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/pramod/Documents/Scala%20Tutorial/RabbitmqTest/}rabbitmqtest...[0m
+[0m[[0mdebug[0m] [0m:: building artificial module descriptors from com.pagero#rabbitmqtest_2.12;0.1[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.scala-lang#scala-compiler;2.12.3 {scala-tool=[default, optional(default)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: org.scala-lang#scala-library;2.12.3 {scala-tool=[default, optional(default)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0m::: dd: dependency: com.rabbitmq#amqp-client;3.5.2 {compile=[default(compile)]} (artifacts: )[0m
+[0m[[0mdebug[0m] [0mparsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-compiler/2.12.3_temp-resolve-c06cafe61c48aa1baa627a6b416bffbb42ac33e6/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /home/pramod/.sbt/0.13/dependency/module/static/org.scala-lang/scala-library/2.12.3_temp-resolve-04cb5dfcff3b1a698fe9b9fb846aee2a2fa3873b/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0mparsing /home/pramod/.sbt/0.13/dependency/module/static/com.rabbitmq/amqp-client/3.5.2_temp-resolve-c98b11a123748d361e64f0de45bbbc8e4360c9e0/graphs/graph.json[0m
+[0m[[0mdebug[0m] [0m:: merging update reports[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: compile: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: runtime: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: test: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m:: no conflict test: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: provided: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: optional: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: compile-internal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m:: no conflict compile-internal: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: runtime-internal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m:: no conflict runtime-internal: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: test-internal: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m:: no conflict test-internal: com.rabbitmq:amqp-client[0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: plugin: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: sources: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: docs: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: pom: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: [0m
+[0m[[0mdebug[0m] [0m::: -----------[0m
+[0m[[0mdebug[0m] [0m:: scala-tool: loop: List()[0m
+[0m[[0mdebug[0m] [0m:: sort result: org.scala-lang:scala-compiler, jline:jline, org.scala-lang.modules:scala-xml_2.12, org.scala-lang:scala-reflect, org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang:scala-compiler[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: jline:jline[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang.modules:scala-xml_2.12[0m
+[0m[[0mdebug[0m] [0m:: no conflict scala-tool: org.scala-lang:scala-reflect[0m
+[0m[[0mdebug[0m] [0m:: merging module reports for scala-tool: org.scala-lang:scala-library[0m
+[0m[[0mdebug[0m] [0m::: adds org.scala-lang:scala-library:2.12.3 ()[0m
+[0m[[0mdebug[0m] [0m::: evicted [0m
+[0m[[0mdebug[0m] [0mignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
